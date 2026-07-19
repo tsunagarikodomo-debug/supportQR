@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    background:#f2f6fa;
+    font-family:"Yu Gothic",sans-serif;
+}
+
+.container{
+    max-width:600px;
+    margin:40px auto;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    color:#003366;
+}
+
+.account{
+    background:#fff;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}
+
+th{
+    width:35%;
+    background:#eef3f8;
+    text-align:left;
+}
+
+td{
+    background:#fff;
+}
+
+@media(max-width:600px){
+
+    .container{
+        margin:20px;
+        padding:10px;
+    }
+
+    th,td{
+        font-size:14px;
+        padding:10px;
+    }
+
+}
