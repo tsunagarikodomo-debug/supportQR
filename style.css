@@ -55,3 +55,22 @@ td{
     }
 
 }
+
+.notice {
+    background: #fff8e1;
+    border: 2px solid #f4c542;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.notice p {
+    margin: 0;
+}
+
+.notice p:first-child {
+    color: #d35400;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
